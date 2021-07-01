@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body {
+    
+    background: rgba(2, 0, 0, 0.789);
+}
+.parallax {
+  background-image: url(/img/coche1.jpg);
+    min-height: 600px; 
+  
+    /*Parallax scrolling */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-popup{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+#showInfoCar{
+    margin: 5em;
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+h6{
+    color: gold;
+}
+
+
+
+  
